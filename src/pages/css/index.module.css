@@ -1,13 +1,13 @@
 .main-container {
     display: grid;
-    grid-template-rows: 100vh auto 50vh;
+    grid-template-rows: calc(100vh - 55px) auto 50vh;
 }
 
 .about {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 80% 1fr;
-    background-color: rgb(139, 133, 133);
+    background-color: #211F30;
 }
 
 .intro {

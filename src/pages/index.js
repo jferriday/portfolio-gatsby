@@ -23,8 +23,8 @@ const IndexPage = () => {
           <div className={styles.portrait}></div>
         </section>
 
-        <section className={styles.projects}>
-          <ProjectsGallery className={styles.ProjectsGallery}/>
+        <section>
+          <ProjectsGallery/>
 
         </section>
       <section className={styles.contact}>

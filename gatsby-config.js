@@ -10,6 +10,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: "gatsby-source-strapi",
+      options: {
+        apiURL: "http://localhost:1337",
+        collectionTypes: [`projects`],
+        singleTypes: [`about`]
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
