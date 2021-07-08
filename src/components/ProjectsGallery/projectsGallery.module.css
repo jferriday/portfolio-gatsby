@@ -3,17 +3,17 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows:  auto 1fr;
-    background-color: teal;
+    background-color: #211F30
 
 }
 
 .projects-gallery-container{
     grid-row: 2/3;
     grid-column: 2/12;
-    background-color: turquoise;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     place-content: center;
+    justify-content: space-around;
 
 }

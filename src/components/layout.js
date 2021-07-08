@@ -1,11 +1,24 @@
 import React from 'react';
-import Header from './header/header'
+import {Link} from 'gatsby';
+import './layout.css'
 
 const Layout = ({children}) => {
     return(
-        <div>
-            <Header />
+        <div className="layout-grid">
+            <header className="header">
+            <nav>
+                <ul className="nav-list">
+                    <li className="nav-link"><Link to="/">About</Link></li>
+                    <li className="nav-link"><Link to="#portfolio">Portfolio</Link></li>
+                    <li className="nav-link"><Link to="#contact">Contact</Link></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
             {children}
+        </main>
+
         </div>
     )
 }
