@@ -1,42 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
 }
 
 .figure {
-margin: 2em 2em;
-margin-bottom: 2em;
-height: 100%;
-flex: 1 0 60%;
+  margin: 2em 2em;
+  margin-bottom: 2em;
+  height: 100%;
+  flex: 1 0 60%;
 }
 .project-card {
-    background-color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    margin: 1em 0;
-    border-radius: 2px;
-    padding: 15px;   
-    /* flexbox */
-    display: flex; 
-    align-items: center;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 1em 0;
+  border-radius: 2px;
+  padding: 15px;
+  /* flexbox */
+  display: flex;
+  align-items: center;
 }
 .desc {
-    margin: 2em;
-   color: #000;
-   font-size: 24px;
-   text-align: justify;
+  margin: 2em;
+  color: #000;
+  font-size: 24px;
+  text-align: justify;
 }
 .title {
-    font-size: 2rem;
-    color: #000;
+  font-size: 2rem;
+  color: #000;
 }
 .image {
-    border: gray 1px solid;
+  border: gray 1px solid;
 }
-
-
