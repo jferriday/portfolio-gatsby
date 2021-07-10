@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import "../components/normalize.css";
 import * as styles from "./css/index.module.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 // component imports
 import ProjectsGallery from "../components/ProjectsGallery/projectsGallery";
@@ -9,24 +10,30 @@ import ProjectsGallery from "../components/ProjectsGallery/projectsGallery";
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
-      <main className={styles.mainContainer}>
-        <section className={styles.about}>
+    <Layout pageTitle="Josh Ferriday">
+      <main className={styles.container}>
           <div className={styles.intro}>
-            <h1>Hello. I'm Josh Ferriday</h1>
-            <p>
+            <p className={styles.introText}>Hello, I'm Josh Ferriday.
+              <br></br>        
               I’m a front-end developer from Leeds, UK. I’m interested in making
-              awesome experiences on the web. Always developing and learning,
+              awesome experiences on the web. 
+              <br></br>
+              Always developing and learning,
               I’m available for work as part of your team.
             </p>
           </div>
-          <div className={styles.portrait}></div>
-        </section>
+          <div className={styles.portrait}>
+            <StaticImage src="../images/profile-photo.jpg"
+            alt="profile photo" 
+            objectFit={"contain"}
+            className={styles.portraitImage}
+            />
+          </div>
 
-        <section>
+        {/* <section>
           <ProjectsGallery/>
 
-        </section>
+        </section> */}
       <section className={styles.contact}>
         <address>
           <h2>Contact</h2>

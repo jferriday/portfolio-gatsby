@@ -2,9 +2,12 @@ import React from 'react';
 import {Link} from 'gatsby';
 import './layout.css'
 
-const Layout = ({children}) => {
+const Layout = ({children, pageTitle}) => {
     return(
         <div className="layout-grid">
+            <div className="title-container">
+                <h1 className="title">{pageTitle}</h1>
+            </div>
             <header className="header">
             <nav>
                 <ul className="nav-list">
