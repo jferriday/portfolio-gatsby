@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-h3, h4, h5, p {
+h3, h4, h5, p, address {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.5em;
 }
@@ -11,14 +11,14 @@ h3, h4, h5, p {
 .container {
     display: grid;
     grid-template-columns: 4fr 3fr;
-    grid-template-rows: calc(100vh - 80px) minmax(80vh, auto) 50vh;
+    grid-template-rows: calc(100vh - 80px) minmax(100vh, auto) 50vh;
 }
 
 .intro {
     grid-column: 1/2;
     grid-row: 1/2;
     height: 100%;
-    padding: 0 5%;
+    padding: 0 2.5em;
 }
 
 .intro-text {
@@ -40,16 +40,55 @@ h3, h4, h5, p {
 }
 
 
-.contact {
-    grid-row: 3/4;
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr 80% 1fr;
-    background-color: wheat;
+/* Projects Section */
+.projects-section {
+grid-row: 2/3;
+grid-column: 1/3;
+height: 100%;
 }
 
-.contact address {
-    background-color: yellow;
+.contact {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: grid;
+    padding: 0 2.5em;
+
+}
+
+address > * {
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+address > p {
+    font-size: 24pt;
+}
+
+.contact-buttons {
+    display: flex;
+    width: 100%;
+;
+    justify-content: space-evenly;
+}
+
+.CTA {
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: none;
+    border: none;
+    background-color: white;
+}
+
+.CTA a {
+    font-size: 24pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #E29930;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.CTA:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 

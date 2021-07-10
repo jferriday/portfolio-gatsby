@@ -1,15 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+}
+
+h3, h4, h5, p {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+.projects-text {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+}
+
 .section-container {
-    min-height: 60vh;
+    min-height: 100%;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:  auto 1fr;
-    background-color: #211F30
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows:  auto auto 1fr;
+    padding: 0 2.5em;
+
 
 }
 
 .projects-gallery-container{
-    grid-row: 2/3;
-    grid-column: 2/12;
+    grid-row: 3/4;
+    grid-column: 1/3;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,3 +39,4 @@
     justify-content: space-around;
 
 }
+

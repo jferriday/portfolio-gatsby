@@ -3,6 +3,7 @@ import * as styles from './projectsGallery.module.css'
 import {useStaticQuery, graphql} from 'gatsby';
 import ProjectCard from '../ProjectCard/projectCard';
 
+
 // Project gallery component for home page
 
 const ProjectsGallery = () => {
@@ -32,6 +33,12 @@ const projects = data.allStrapiProjects.nodes
 
 return(
     <section className={styles.sectionContainer}>
+        <h2>Projects</h2>
+        <p className={styles.projectsText}>
+            The projects below illustrate some of the skills I've developed whilst learning about front end development. 
+            <br/>
+            Select a project for more information.
+        </p>
 
     <div className={styles.projectsGalleryContainer}>
         {projects.map(project => {

@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(255, 255, 255);
+}
 .layout-grid {
     display: grid;
     grid-template-columns: 200px 4fr 3fr;
@@ -62,7 +65,13 @@ height: 100%;
 .nav-link a {
     text-decoration: none;
     color: #E29930;
+    font-weight: bold;
+
 }
+
+.nav-link a:hover {
+   text-decoration: underline;
+   }
 
 /* Position main and children in main part of grid (blank space in middle) */
 main {

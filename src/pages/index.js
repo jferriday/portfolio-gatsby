@@ -30,19 +30,18 @@ const IndexPage = () => {
             />
           </div>
 
-        {/* <section>
+        <section className={styles.projectsSection}>
           <ProjectsGallery/>
 
-        </section> */}
+        </section>
       <section className={styles.contact}>
         <address>
           <h2>Contact</h2>
-          <p>
-          Placeholder
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Fuga non harum quasi accusantium modi unde quod sit architecto 
-           nemo dolore ad omnis illum tempore, quae eos earum aut saepe numquam.
-          </p>
+          <p>Want to get in touch?</p>
+          <div className={styles.contactButtons}>
+            <button className={styles.CTA}><a href="mailto:joshferriday@gmail.com">Drop me an email</a></button>
+            <button className={styles.CTA}><a href="https://github.com/ferriday">Find me on GitHub</a></button>
+          </div>
         </address>
       </section>
       </main>
