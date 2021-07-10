@@ -4,14 +4,19 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import * as styles from './projectCard.module.css'
 
 export default function ProjectCard({title, snippet, thumbnail}) {
-    const imageData = thumbnail.localFile.childImageSharp.gatsbyImageData;
+    const imageData = getImage(thumbnail.localFile.childImageSharp.gatsbyImageData);
     console.log(imageData)
     
 
     return(
         <div className={styles.projectCard}>
+            <div className={styles.figure}>
             <h3 className={styles.title}>{title}</h3>
-            <GatsbyImage className={styles.image} image={imageData} alt={title} />
+            <GatsbyImage className={styles.image} 
+            image={imageData}
+             alt={title} 
+             objectFit={"contain"}/>
+             </div>
             <div className={styles.desc}>
             <p>{snippet}</p>
             </div>

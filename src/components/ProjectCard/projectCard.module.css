@@ -1,26 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
     box-sizing: border-box;
 }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+.figure {
+margin: 2em 2em;
+margin-bottom: 2em;
+height: 100%;
+flex: 1 0 60%;
+}
 .project-card {
-    background-color: #32384D;
-    font-family: 'Rubik', sans-serif;
-    width: clamp(250px, 400px, 100%);
-    height: clamp(350px, 400px, 80%);
-    margin: 1rem;
-    border-radius: 5px;
-    padding: 15px;    
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em 0;
+    border-radius: 2px;
+    padding: 15px;   
+    /* flexbox */
+    display: flex; 
+    align-items: center;
 }
 .desc {
-    display: none;
-}
-.project-card:hover .desc {
-display: block;
-position: absolute;
-top: 50px;
+    margin: 2em;
+   color: #000;
+   font-size: 24px;
+   text-align: justify;
 }
 .title {
     font-size: 2rem;
-    color: white;
+    color: #000;
+}
+.image {
+    border: gray 1px solid;
 }
 
 
