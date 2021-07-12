@@ -17,7 +17,7 @@ exports.createPages = async ({graphql, actions}) => {
 
     result.data.allStrapiProjects.edges.forEach(({node}) => {
         createPage({
-            path: node.project,
+            path: `projects/${node.project}`,
             component: path.resolve(`./src/templates/projectPage.js`),
             context: {
                 slug: node.project

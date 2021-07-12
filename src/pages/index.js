@@ -11,7 +11,7 @@ import ProjectsGallery from "../components/ProjectsGallery/projectsGallery";
 const IndexPage = () => {
   return (
     <Layout pageTitle="Josh Ferriday">
-      <main className={styles.container}>
+      <main className={styles.container}> 
         <div className={styles.intro}>
           <p className={styles.introText}>
             Hello, I'm Josh Ferriday.

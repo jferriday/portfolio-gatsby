@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-h3, h4, h5, p, address {
+h3, h4, h5, address {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.5em;
 }
@@ -11,7 +11,7 @@ h3, h4, h5, p, address {
 .container {
     display: grid;
     grid-template-columns: 4fr 3fr;
-    grid-template-rows: calc(100vh - 80px) minmax(100vh, auto) 50vh;
+    grid-template-rows: calc(100vh - 80px) minmax(100vh, auto) auto;
 }
 
 .intro {
