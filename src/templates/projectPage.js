@@ -14,7 +14,7 @@ export default function ProjectPage({ data }) {
     content.thumbnail.localFile.childImageSharp.gatsbyImageData
   );
   return (
-    <Layout pageTitle="Portfolio">
+    <Layout pageTitle="Projects">
       <div className={styles.container}>
         <h2 className={styles.heading}>{content.title}</h2>
         <ReactMarkdown className={styles.markdownContainer} children={content.projectProfile} />

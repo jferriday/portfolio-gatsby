@@ -38,7 +38,6 @@ const ProjectsGallery = () => {
         <br />
         Select a project for more information.
       </p>
-
       <div className={styles.projectsGalleryContainer}>
         {projects.map((project) => {
           console.log(project);
@@ -46,6 +45,7 @@ const ProjectsGallery = () => {
           return (
             <ProjectCard
               key={project.strapiId}
+              slug={project.project}
               title={project.title}
               snippet={project.shortDescription}
               thumbnail={project.thumbnail}

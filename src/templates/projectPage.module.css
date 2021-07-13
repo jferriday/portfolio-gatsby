@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-h2, h3, h4, h5, p, address,  {
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.5em;
-}
+
 p, li, strong {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 1.5em;
 }
 a {
     color: #E29930;
@@ -31,9 +28,11 @@ a {
 .project-screenshot {
     grid-row: 2/3;
     grid-column: 2/3;
-
     position: relative;
     top: 0;
+}
+.project-screenshot img {
+    border-radius: 5px;
 }
 
 .markdown-container {
@@ -41,4 +40,5 @@ a {
     grid-row: 2/3;
     padding-right: 4em;
 }
+
 

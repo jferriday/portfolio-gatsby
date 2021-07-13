@@ -32,20 +32,20 @@ const IndexPage = () => {
           />
         </div>
 
-        <section className={styles.projectsSection}>
+        <section id="projects" className={styles.projectsSection}>
           <ProjectsGallery />
         </section>
-        <section className={styles.contact}>
+        <section id="contact" className={styles.contact}>
           <address>
             <h2>Contact</h2>
             <p>Want to get in touch?</p>
             <div className={styles.contactButtons}>
-              <button className={styles.CTA}>
+              <div className={styles.CTA}>
                 <a href="mailto:joshferriday@gmail.com">Drop me an email</a>
-              </button>
-              <button className={styles.CTA}>
+              </div>
+              <div className={styles.CTA}>
                 <a href="https://github.com/ferriday">Find me on GitHub</a>
-              </button>
+              </div>
             </div>
           </address>
         </section>

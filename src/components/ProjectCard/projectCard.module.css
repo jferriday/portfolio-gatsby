@@ -7,6 +7,11 @@
 h3 {
   font-family: "Montserrat", sans-serif;
   margin-top: 0;
+  color: white;
+}
+
+.project-link {
+  color: white;
 }
 
 .figure {
@@ -16,7 +21,7 @@ h3 {
   flex: 1 0 60%;
 }
 .project-card {
-  background-color: #fff;
+  background-color: #000;
   font-family: "Montserrat", sans-serif;
   margin: 1em 0;
   border-radius: 2px;
@@ -27,14 +32,23 @@ h3 {
 }
 .desc {
   margin: 2em;
-  color: #000;
-  font-size: 24px;
-  text-align: justify;
+  color: #fff;
+  text-align: left;
+}
+.desc p, .desc a{
+  font-size: 1.25em;
 }
 .title {
-  font-size: 2rem;
-  color: #000;
+  font-size: 2em;
+  color: #fff;
 }
 .image {
-  border: gray 1px solid;
+border-radius: 5px;
+width: 90%;
+}
+
+@media (max-width: 1200px) {
+  .project-card {
+    flex-direction: column;
+  }
 }
