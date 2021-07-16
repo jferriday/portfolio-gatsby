@@ -77,20 +77,15 @@ address > * {
     justify-content: space-evenly;
 }
 
-.CTA {
-    height: 100px;
-    width: 300px;
-    border-radius: 50px;
-    box-shadow: none;
-    border: none;
-    background-color: #000;
-}
 
 .CTA a {
     font-family: 'Montserrat', sans-serif;
     color: #E29930;
     font-weight: bold;
     text-decoration: none;
+}
+.CTA {
+    text-align: center;
 }
 
 .CTA:hover {

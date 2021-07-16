@@ -11,7 +11,7 @@ export default function ProjectPage({ data }) {
   console.log(data);
   const content = data.allStrapiProjects.edges[0].node;
   const imageData = getImage(
-    content.thumbnail.localFile.childImageSharp.gatsbyImageData
+    content.thumbnail[0].localFile.childImageSharp.gatsbyImageData
   );
   return (
     <Layout pageTitle="Projects">

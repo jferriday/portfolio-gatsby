@@ -28,6 +28,7 @@ const ProjectsGallery = () => {
     }
   `);
   const projects = data.allStrapiProjects.nodes;
+  console.log(projects)
 
   return (
     <section className={styles.sectionContainer}>

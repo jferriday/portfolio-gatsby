@@ -5,7 +5,7 @@ import * as styles from "./projectCard.module.css";
 
 export default function ProjectCard({ title, snippet, thumbnail, slug }) {
   const imageData = getImage(
-    thumbnail.localFile.childImageSharp.gatsbyImageData
+    thumbnail[0].localFile.childImageSharp.gatsbyImageData
   );
   console.log(imageData);
 
