@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Racing+Sans+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;900&family=Prompt:ital,wght@1,500&display=swap');
 
 * {
   box-sizing: border-box;
 }
 h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   margin-top: 0;
   color: white;
 }
@@ -22,7 +23,7 @@ h3 {
 }
 .project-card {
   background-color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Noto Sans SC';
   margin: 1em 0;
   border-radius: 2px;
   padding: 15px;
@@ -36,10 +37,10 @@ h3 {
   text-align: left;
 }
 .desc p, .desc a{
-  font-size: 1.25em;
+  font-size: 1.22em;
 }
 .title {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
 }
 .image {

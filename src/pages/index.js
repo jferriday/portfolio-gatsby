@@ -15,10 +15,10 @@ const IndexPage = () => {
         <div className={styles.intro}>
           <p className={styles.introText}>
             Hello, I'm Josh Ferriday.
-            <br></br>
+            <br></br><br/>
             I’m a front-end developer from Leeds, UK. I’m interested in making
-            awesome experiences on the web.
-            <br></br>
+            great experiences on the web.
+            <br></br><br/>
             Always developing and learning, I’m available for work as part of
             your team.
           </p>
@@ -37,7 +37,7 @@ const IndexPage = () => {
         </section>
         <section id="contact" className={styles.contact}>
           <address>
-            <h2>Contact</h2>
+            <h2 className={styles.subheading}>Contact</h2>
             <p>Want to get in touch?</p>
             <div className={styles.contactButtons}>
               <div className={styles.CTA}>
