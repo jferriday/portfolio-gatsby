@@ -124,10 +124,13 @@ main {
     .menu-button {
         display: flex;
         justify-content: flex-end;
+        background-color: transparent;
+        color: white;
+        border: none;
     }
     
     nav {
-        background-color: blue;
+        background-color: #000;
         position: absolute;
         height: auto;
         top: 0;
