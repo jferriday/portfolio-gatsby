@@ -116,7 +116,7 @@ address > * {
         grid-column: 1/2;
         grid-row: 2/3;
         height: 100%;
-        padding: 0 2.5em;
+        padding: 0 1em;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -130,6 +130,7 @@ address > * {
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
+        padding: 0 1em;
     }
     
     .portraitImage {
@@ -150,7 +151,7 @@ address > * {
         grid-row: 4/5;
         grid-column: 1/2;
         display: grid;
-        padding: 0 2.5em;
+        padding: 0 1em;
     
     }
     

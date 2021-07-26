@@ -100,10 +100,10 @@ main {
 
     .title {
         writing-mode: unset;
-        font-size: 3em;
+        font-size: 2.5em;
         font-family: 'Prompt', sans-serif;
         font-weight: 500;
-        margin: auto;
+        margin-left: 1.2rem;
     }
     .title-container {
         grid-row: 1/2;
@@ -132,6 +132,10 @@ main {
         color: white;
         border: none;
         align-items: center;
+    }
+    .menu-button:hover {
+        color: #E29930;
+        transition: color .2s;
     }
     
     nav {
