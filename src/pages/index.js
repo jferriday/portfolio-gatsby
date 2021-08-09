@@ -41,7 +41,7 @@ const IndexPage = () => {
             <p>Want to get in touch?</p>
             <div className={styles.contactButtons}>
               <div className={styles.CTA}>
-                <a href="mailto:joshferriday@gmail.com">Drop me an email</a>
+                <a href="mailto:josh.ferriday@gmail.com">Drop me an email</a>
               </div>
               <div className={styles.CTA}>
                 <a href="https://github.com/ferriday">Find me on GitHub</a>
